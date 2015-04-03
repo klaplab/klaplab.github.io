@@ -15,7 +15,7 @@
 		<script src="js/jquery.scrolly.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/init.js"></script>
-		<script src="js/typed.js"></script>
+		<!--<script src="js/typed.js"></script>
 		<script>
 		  $(function(){
 		      $(".frase").typed({
@@ -194,7 +194,7 @@
 		        showCursor: false
 		      });
 		  });
-		</script>
+		</script>-->
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -208,7 +208,13 @@
 			#joke {
 				font-size: 0.7em;
 			}
-			.frase {
+			.lowercase {
+				text-transform: lowercase;
+			}
+			p.copyright {
+				margin-top: 12px !important;
+			}
+/*			.frase {
 				min-height: 2em;
 				font-size: 1.5em;
 				color: #fff;
@@ -222,7 +228,7 @@
 			  .frase {
 				  font-size: 1.1em;
 				}
-      }
+      }*/
 		</style>
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
@@ -254,11 +260,11 @@
 									per professionisti ed aziende</h2>
 							</header>
 							<p>
+								Siamo sviluppatori e disegnatori web che condividono 
+								conoscenze e passione, ed insieme offriamo al cliente un
+								ampio spettro di competenze.
 								Un sito web per noi deve essere <em>funzionale, innovativo
-								e tremendamente bello</em>.<br />
-								<em>Funzionale</em> perché in fin dei conti siamo dei bravi ragazzi,
-								<em>innovativo</em> perché non vogliamo essere secondi a nessuno, e
-								<em>tremendamente bello</em> perché un dettaglio fuori posto ci fa
+								e tremendamente bello</em>, perché un dettaglio fuori posto ci fa
 								soffrire. Non ci credi?
 								<a href="http://annaandolfatto.com/">Guarda un nostro lavoro..</a>
 							</p>
@@ -311,12 +317,12 @@
 			<section id="three" class="main style1 special">
 				<div class="container">
 					<header class="major">
-						<h2>Anche Batman è venuto da noi per il sito</h2>
+						<h2>Sapremo adattarci al tuo business</h2>
 					</header>
 					<p>
 						La tecnologia web è in continua evoluzione
 						e noi siamo in costante aggiornamento, <br />
-						questo ci dà modo di offrire soluzioni <em>da supereroi</em>.
+						questo ci dà modo di offrire soluzioni <em>ad hoc</em>.
 					</p>
 					<div class="row 150%">
 						<div class="4u 12u$(medium)">
@@ -339,7 +345,7 @@
 							<p>
 								Alle persone piace la comodità.. e allora offriamogliela!
 								Lo abbiamo già detto, noi amiamo la <em>semplicità</em>, e così
-								saranno i nostri siti e-commerce: puliti e funzionali.
+								saranno i nostri siti e-commerce: facili e puliti.
 							</p>
 <!-- 							<ul class="actions">
 								<li><a href="#" class="button">More</a></li>
@@ -352,7 +358,7 @@
 							<p>
 								Tu hai l'<em>idea</em>, noi ti aiutiamo a realizzarla.
 								Creare una app non è come scartare una caramella, ma noi conosciamo
-								i nostri strumenti e, fidati, ci divertiamo ad usarli ;)
+								i nostri strumenti e, fidati, ci divertiamo ad usarli :)
 							</p>
 <!-- 							<ul class="actions">
 								<li><a href="#" class="button">More</a></li>
@@ -366,15 +372,15 @@
 			<section id="four" class="main style2 special">
 				<div class="container">
 					<header class="major">
-						<p class="frase"></p>
-						<h2>Scrivici</h2>
+						<!-- <p class="frase"></p> -->
+						<h2>Vorresti un preventivo gratuito?</h2>
 						<!-- <h2 class="frase"></h2> -->
 					</header>
-					<!-- <p>Nessun problema! Contattaci, non mordiamo mica :)</p> -->
+					<p>Nessun problema! Contattaci per fissare un appuntamento.</p>
 					<ul class="actions uniform">
-						<li><a href="mailto:ciao@klaplab.com" class="button spacial">email</a></li>
-						<!-- <li><a class="button spacial">ciao@klaplab.com</a></li> -->
-						<li><a class="button">349 3732370</a></li>
+						<!-- <li><a href="mailto:ciao@klaplab.com" class="button">email</a></li> -->
+						<li><a href="mailto:ciao@klaplab.com" class="button lowercase">ciao@klaplab.com</a></li>
+						<li><a class="button">+39 349 3732370</a></li>
 					</ul>
 				</div>
 			</section>
@@ -389,14 +395,15 @@
 					<li><a href="mailto:ciao@klaplab.com" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
 				</ul>
 				<ul class="copyright">
-					<li>&copy; klaplab 2015</li>
+					<li>&copy; Eidogram 2015</li>
 					<li>P.IVA: IT03876810247</li>
 					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 				</ul>
-				<ul class="copyright">
+<!-- 				<ul class="copyright">
 					<li>Email: ciao@klaplab.com</li>
 					<li>Tel: +39 349 3732370</li>
-				</ul>
+				</ul> -->
+				<p class="copyright">Strada Grotta 13, Pellegrino P.se - Parma</p>
 			</section>
 
 	</body>
